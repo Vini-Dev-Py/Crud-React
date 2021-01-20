@@ -1,6 +1,9 @@
 import React from 'react'
 import './App.css'
 
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'font-awesome/css/font-awesome.min.css'
+
 import Logo from '../components/templates/logo/Logo'
 import Nav from '../components/templates/nav/Nav'
 import Main from '../components/templates/main/Main'
@@ -11,6 +14,7 @@ export default props =>
     <div className="app">
         <Logo/>
         <Nav/>
-        <Main/>
+        <Main icon="home" title="Início"
+            subtitle="Segundo Projeto Em React"/>
         <Footer/>
     </div>
